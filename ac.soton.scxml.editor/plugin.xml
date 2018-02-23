@@ -20,9 +20,9 @@
             id="org.eclipse.emf.ecore.Wizard.category.ID"
             name="%_UI_Wizard_category"/>
       <wizard
-            id="org.eclipse.sirius.tests.sample.scxml.presentation.ScxmlModelWizardID"
+            id="ac.soton.scxml.presentation.ScxmlModelWizardID"
             name="%_UI_ScxmlModelWizard_label"
-            class="org.eclipse.sirius.tests.sample.scxml.presentation.ScxmlModelWizard"
+            class="ac.soton.scxml.presentation.ScxmlModelWizard"
             category="org.eclipse.emf.ecore.Wizard.category.ID"
             icon="icons/full/obj16/ScxmlModelFile.gif">
          <description>%_UI_ScxmlModelWizard_description</description>
@@ -33,12 +33,12 @@
    <extension point="org.eclipse.ui.editors">
       <!-- @generated scxml -->
       <editor
-            id="org.eclipse.sirius.tests.sample.scxml.presentation.ScxmlEditorID"
+            id="ac.soton.scxml.presentation.ScxmlEditorID"
             name="%_UI_ScxmlEditor_label"
             icon="icons/full/obj16/ScxmlModelFile.gif"
             extensions="scxml"
-            class="org.eclipse.sirius.tests.sample.scxml.presentation.ScxmlEditor"
-            contributorClass="org.eclipse.sirius.tests.sample.scxml.presentation.ScxmlActionBarContributor">
+            class="ac.soton.scxml.presentation.ScxmlEditor"
+            contributorClass="ac.soton.scxml.presentation.ScxmlActionBarContributor">
       </editor>
    </extension>
 

@@ -16,7 +16,7 @@
       <!-- @generated scxml -->
       <package
             uri="http://www.w3.org/2005/07/scxml"
-            class="org.eclipse.sirius.tests.sample.scxml.ScxmlPackage"
+            class="ac.soton.scxml.ScxmlPackage"
             genModel="model/scxml.genmodel"/>
    </extension>
 
@@ -24,7 +24,7 @@
       <!-- @generated scxml -->
       <parser
             type="scxml"
-            class="org.eclipse.sirius.tests.sample.scxml.util.ScxmlResourceFactoryImpl"/>
+            class="ac.soton.scxml.util.ScxmlResourceFactoryImpl"/>
    </extension>
 
 </plugin>
