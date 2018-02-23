@@ -18,7 +18,7 @@
       <!-- @generated scxml -->
       <factory
             uri="http://www.w3.org/2005/07/scxml"
-            class="org.eclipse.sirius.tests.sample.scxml.provider.ScxmlItemProviderAdapterFactory"
+            class="ac.soton.scxml.provider.ScxmlItemProviderAdapterFactory"
             supportedTypes=
               "org.eclipse.emf.edit.provider.IEditingDomainItemProvider
                org.eclipse.emf.edit.provider.IStructuredItemContentProvider
