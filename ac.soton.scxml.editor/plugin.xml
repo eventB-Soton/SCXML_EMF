@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+ Copyright (c) 2015 Obeo.
+ All rights reserved. This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v1.0
+ which accompanies this distribution, and is available at
+ http://www.eclipse.org/legal/epl-v10.html
+  
+ Contributors:
+    Obeo - initial API and implementation
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated scxml -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="org.eclipse.sirius.tests.sample.scxml.presentation.ScxmlModelWizardID"
+            name="%_UI_ScxmlModelWizard_label"
+            class="org.eclipse.sirius.tests.sample.scxml.presentation.ScxmlModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/ScxmlModelFile.gif">
+         <description>%_UI_ScxmlModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated scxml -->
+      <editor
+            id="org.eclipse.sirius.tests.sample.scxml.presentation.ScxmlEditorID"
+            name="%_UI_ScxmlEditor_label"
+            icon="icons/full/obj16/ScxmlModelFile.gif"
+            extensions="scxml"
+            class="org.eclipse.sirius.tests.sample.scxml.presentation.ScxmlEditor"
+            contributorClass="org.eclipse.sirius.tests.sample.scxml.presentation.ScxmlActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>
