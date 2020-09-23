@@ -2,10 +2,10 @@
 <feature
       id="ac.soton.scxml.feature"
       label="%featureName"
-      version="0.0.1.qualifier"
+      version="0.0.2.qualifier"
       provider-name="%featureVendor"
       plugin="ac.soton.iumlb.branding"
-      license-feature="org.rodinp.license"
+      license-feature="org.rodinp.licence"
       license-feature-version="1.0.0.release">
 
    <description>
