@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: %pluginName
 Bundle-SymbolicName: ac.soton.scxml.editor;singleton:=true
-Bundle-Version: 0.0.2.qualifier
+Bundle-Version: 0.0.2.release
 Bundle-ClassPath: .
 Bundle-Activator: ac.soton.scxml.presentation.ScxmlEditorPlugin$Implementation
 Bundle-Vendor: %providerName
