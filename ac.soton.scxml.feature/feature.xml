@@ -4,7 +4,7 @@
       label="%featureName"
       version="0.0.2.release"
       provider-name="%featureVendor"
-      plugin="ac.soton.iumlb.branding"
+      plugin="ac.soton.scxml.branding"
       license-feature="org.rodinp.licence"
       license-feature-version="1.0.0.release">
 
@@ -43,16 +43,16 @@
          unpack="false"/>
 
    <plugin
+         id="ac.soton.scxml.branding"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+   <plugin
          id="ac.soton.scxml.editor"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-
-   <plugin
-         id="ac.soton.iumlb.branding"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"/>
 
 </feature>
