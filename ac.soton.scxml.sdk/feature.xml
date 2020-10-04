@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="ac.soton.scxml.sdk"
+      label="%featureName"
+      version="0.0.2.release"
+      provider-name="%featureVendor"
+      license-feature="org.rodinp.licence"
+      license-feature-version="1.0.0.release">
+
+   <description>
+      %featureDescription
+   </description>
+
+   <copyright>
+      %featureCopyright
+   </copyright>
+
+   <url>
+      <update label="%updateSiteName" url="https://eventB-soton.github.io/updateSite"/>
+   </url>
+
+   <includes
+         id="ac.soton.scxml.feature"
+         version="0.0.0"/>
+
+   <plugin
+         id="ac.soton.scxml.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="ac.soton.scxml.branding.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+   <plugin
+         id="ac.soton.scxml.edit.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="ac.soton.scxml.editor.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
