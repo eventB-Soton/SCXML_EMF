@@ -23,8 +23,8 @@
 
   <modules>
     <!-- LATER: List of modules in this build -->
-    <module>ac.soton.scxml.</module>
-    <module>ac.soton.scxml..branding</module>
+    <module>ac.soton.scxml</module>
+    <module>ac.soton.scxml.branding</module>
     <module>ac.soton.scxml.edit</module>
     <module>ac.soton.scxml.editor</module>
     <module>ac.soton.scxml.feature</module>
