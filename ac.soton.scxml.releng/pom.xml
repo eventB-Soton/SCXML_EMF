@@ -5,7 +5,7 @@
   <!-- ID of this artifact -->
   <artifactId>releng</artifactId>
   <!-- REQUIRED: Version number (using semantic versioning) -->
-  <version>1.2.1.release</version>
+  <version>0.0.2.release</version>
   <packaging>pom</packaging>
 
   <properties>
