@@ -14,11 +14,10 @@
  -->
 
 <feature
-      id="ac.soton.scxml.feature"
+      id="ac.soton.scxml.sdk"
       label="%featureName"
       version="0.0.2.release"
       provider-name="%featureVendor"
-      plugin="ac.soton.scxml.branding"
       license-feature="org.rodinp.licence"
       license-feature-version="1.0.0.release">
 
@@ -30,40 +29,36 @@
       %featureCopyright
    </copyright>
 
-   <requires>
-      <import plugin="org.eclipse.core.runtime" version="3.10.0" match="compatible"/>
-      <import plugin="org.eclipse.emf.ecore" version="2.10.2" match="compatible"/>
-      <import plugin="org.eclipse.emf.ecore.xmi" version="2.10.2" match="compatible"/>
-      <import plugin="ac.soton.scxml" version="0.0.1" match="compatible"/>
-      <import plugin="org.eclipse.emf.edit" version="2.10.1" match="compatible"/>
-      <import plugin="org.eclipse.core.resources" version="3.9.1" match="compatible"/>
-      <import plugin="ac.soton.scxml.edit" version="0.0.1" match="compatible"/>
-      <import plugin="org.eclipse.emf.edit.ui" version="2.10.2" match="compatible"/>
-      <import plugin="org.eclipse.ui.ide" version="3.10.2" match="compatible"/>
-   </requires>
+   <url>
+      <update label="%updateSiteName" url="https://eventB-soton.github.io/updateSite"/>
+   </url>
+
+   <includes
+         id="ac.soton.scxml.feature"
+         version="0.0.0"/>
 
    <plugin
-         id="ac.soton.scxml"
+         id="ac.soton.scxml.source"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="ac.soton.scxml.edit"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="ac.soton.scxml.branding"
+         id="ac.soton.scxml.branding.source"
          download-size="0"
          install-size="0"
          version="0.0.0"/>
 
    <plugin
-         id="ac.soton.scxml.editor"
+         id="ac.soton.scxml.edit.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="ac.soton.scxml.editor.source"
          download-size="0"
          install-size="0"
          version="0.0.0"

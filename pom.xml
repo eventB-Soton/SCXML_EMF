@@ -1,0 +1,33 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <!-- REQUIRED: Group ID is the feature ID -->
+  <groupId>ac.soton.scxml</groupId>
+  <!-- Name of this artifact -->
+  <artifactId>root</artifactId>
+  <!-- REQUIRED: Name and description of this this root build -->
+  <name>SCXML EMF Root</name>
+  <description>Root artifact for SCXML EMF</description>
+  <!-- REQUIRED: Version number (using semantic versioning) -->
+  <version>0.0.2.release</version>
+  <packaging>pom</packaging>
+  <parent>
+    <!-- REQUIRED: Group ID is the feature ID -->
+    <groupId>ac.soton.scxml</groupId>
+    <!-- Name of the release engineering artifact -->
+    <artifactId>releng</artifactId>
+    <!-- REQUIRED: Version number of the release engineering artifact -->
+    <version>0.0.2.release</version>
+    <!-- REQUIRED: Relative path to the release engineering artifact -->
+    <relativePath>./ac.soton.scxml.releng</relativePath>
+  </parent>
+
+  <modules>
+    <!-- LATER: List of modules in this build -->
+    <module>ac.soton.scxml</module>
+    <module>ac.soton.scxml.branding</module>
+    <module>ac.soton.scxml.edit</module>
+    <module>ac.soton.scxml.editor</module>
+    <module>ac.soton.scxml.feature</module>
+    <module>ac.soton.scxml.sdk</module>
+  </modules>
+</project>
